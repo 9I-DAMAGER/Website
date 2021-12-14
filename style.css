@@ -1,0 +1,134 @@
+/*header*/
+.logo {
+  float: left;
+  text-decoration: none;
+  padding-left: 10px;
+  margin-left: 35px;
+  color: #000;
+  font-size: 35px;
+  
+}
+nav {
+  float: right;
+  
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 15px;
+  margin: 0 auto;
+  border:1px solid;
+  margin-bottom: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*main*/
+
+
+
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.col-img{
+	text-align: center
+}
+
+.col-1{
+	text-align: center;
+	font-size: 18px;
+}
+
+.col-1-22{
+	height:250px;
+	width:250px;
+}
+#col{
+	text-align: center
+}
+.zak{
+	text-align: center;
+	margin-top: 15px;
+	margin-top: 15px;
+}
+#zak{
+	color: #000;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/*footer*/
+.col-end{
+	text-align: center
+}
+
+
+/*HOMER*/
+.col-11{
+	border:1px solid;
+    height: 280px;
+	margin-bottom:15px;
+	display: flex;
+}
+
+#col-11 {
+	text-align: center;
+	font-size: 20px;
+}
+.col-FOTO{
+	width: 300px;
+	height: 280px;
+	
+}
+.col-FOTO1{
+	width: 24.7%;
+	height: 24.7%;	
+}
+
+#col-12 {
+	text-align: center;
+}
+#col-13 {
+	text-align: center;
+	margin: 25px;
+}
+#col-14 {
+	text-align: center;
+	margin: 25px;
+}
+
+/*HOMER-1*/
+.col-111{
+	text-align: center;
+	font-size: 25px;
+}
+.col-1112{
+	font-size: 20px;
+}
+.col-zakk{
+	text-align: center;
+	
+}
